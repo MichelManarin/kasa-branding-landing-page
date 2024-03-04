@@ -1,0 +1,23 @@
+import React from "react";
+import { Spotlight } from "./ui/Spotlight";
+
+export function SpotlightPreview() {
+  return (
+    <div className="h-[35rem] w-full dark:bg-dot-black/[0.2] bg-green-primary relative flex items-center justify-center rounded-br-[20rem] rounded-bl-[20rem]">
+      <Spotlight
+        className="-top-40 left-0 md:left-60 md:-top-20"
+        fill="white"
+      />
+      <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0">
+        <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+          Kasa Branding
+        </h1>
+        <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
+          Fundamentado na Estratégia e Autenticidade, trabalhamos para conceber
+          uma identidade única para sua marca, que não só ressoe com seu
+          público-alvo, mas também reflita seus valores e propósito.
+        </p>
+      </div>
+    </div>
+  );
+}
