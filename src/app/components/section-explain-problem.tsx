@@ -5,7 +5,7 @@ import NoBranding from "../../../public/no-branding.png";
 export function SectionExplainProblem() {
   return (
     <>
-      <section className="w-full h-[35rem] bg-color-neuter flex">
+      <section className="w-full min-h-[35rem] bg-color-neuter flex sm:h-auto">
         <GridContainer className="grid grid-cols-1 sm:grid-cols-2 items-center gap-2">
           <div className="w-full max-w-text-hero flex flex-col gap-y-4">
             <Image className="rounded-md" src={NoBranding} alt="Icon search" />

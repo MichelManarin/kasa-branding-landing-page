@@ -3,11 +3,11 @@ import { GridContainer } from "./grid";
 export function SectionListServices() {
   return (
     <>
-      <section className="w-full h-section-hero bg-[#fff] ">
+      <section className="w-full h-section-hero bg-[#fff] sm:h-auto pb-10">
         <GridContainer className="flex flex-col items-center">
           <div className="">
             <div className="">
-              <h2 className="text-5xl text-gray-800 font-semibold mt-12">
+              <h2 className="text-5xl text-gray-800 font-semibold mt-12 text-center sm:text-left">
                 Conheça nossos serviços
               </h2>
             </div>

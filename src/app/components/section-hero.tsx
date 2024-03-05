@@ -7,7 +7,7 @@ export function SectionHero() {
     <section className="w-full h-[40rem] bg-green-primary border-t border-t-color-border flex pb-5">
       <GridContainer className="grid grid-cols-1 sm:grid-cols-2 items-center gap-2">
         <div className="w-full max-w-text-hero flex flex-col gap-y-4">
-          <h1 className="text-white text-6xl font-semibold mb-2">
+          <h1 className="text-white text-5xl font-semibold mb-2">
             Conexão <br />
             Estratégia & Autenticidade
           </h1>
@@ -22,7 +22,7 @@ export function SectionHero() {
             </button>
           </div>
         </div>
-        <div className="w-full max-w-text-hero flex flex-col gap-y-4">
+        <div className="w-full max-w-text-hero flex flex-col gap-y-4 hidden sm:flex">
           <Image className="rounded-md" src={Planning} alt="Icon search" />
         </div>
       </GridContainer>

@@ -3,7 +3,7 @@ import { GridContainer } from "./grid";
 export function SectionGetLead() {
   return (
     <>
-      <section className="w-full py-12 md:py-24 lg:py-32 border-t border-b bg-neutral-50">
+      <section className="w-full py-12 md:py-24 lg:py-32 border-t border-b bg-neutral-50 sm:h-auto">
         <GridContainer className="flex flex-col items-center">
           <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 ">
             <div className="space-y-3">

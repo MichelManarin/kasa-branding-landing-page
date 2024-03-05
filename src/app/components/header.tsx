@@ -20,7 +20,7 @@ export function Header() {
     <header className="relative w-full h-24 bg-color-background flex items-center">
       <GridContainer className="flex items-center justify-between">
         <Image src={LogoImg} alt="logo" />
-        <div className="flex items-center gap-20">
+        <div className="flex items-center gap-20 hidden sm:flex">
           <nav className="flex gap-2">
             {arrayMenu.map((item, index) => (
               <Link
@@ -33,16 +33,7 @@ export function Header() {
                 {item}
               </Link>
             ))}
-          </nav> 
-          {/* <div className="flex items-center gap-6">
-            <button>
-              <Image src={IconSearch} alt="Icon search" />
-            </button>
-            <button className="flex items-center gap-8">
-              <Image src={IconUser} alt="Icon search" />
-              <span className="text-white font-medium">Fazer login</span>
-            </button>
-          </div> */}
+          </nav>
         </div>
       </GridContainer>
     </header>
