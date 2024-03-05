@@ -2,22 +2,22 @@ import Link from "next/link";
 import Image from "next/image";
 import { GridContainer } from "./grid";
 
-import LogoImg from "../../../public/kasa.svg";
+import LogoImg from "../../../public/kasa-cropped.svg";
 import IconUser from "../../../public/icon-user.svg";
 import IconSearch from "../../../public/icon-search.svg";
 
 const arrayMenu = [
   "Início",
-  "Serviços",
-  "Casos de sucesso",
-  "Portfólio",
   "A Kasa",
+  "Método",
+  "Serviços",
+  "Office",
 ];
 
 export function Header() {
-  const activedStyled = "text-white text-opacity-90";
+  const activedStyled = "text-black text-opacity-90";
   return (
-    <header className="relative w-full h-24 bg-color-background flex items-center">
+    <header className="relative w-full h-24 bg-neutral-50 flex items-center">
       <GridContainer className="flex items-center justify-between">
         <Image src={LogoImg} alt="logo" />
         <div className="flex items-center gap-20 hidden sm:flex">
@@ -26,7 +26,7 @@ export function Header() {
               <Link
                 key={index}
                 href={"#"}
-                className={`px-3 py-1 text-white text-opacity-40 hover:text-opacity-100 transition-all ${
+                className={`px-3 py-1 text-gray-800 text-opacity-70 hover:text-opacity-100 transition-all ${
                   index === 0 ? activedStyled : ""
                 }`}
               >
