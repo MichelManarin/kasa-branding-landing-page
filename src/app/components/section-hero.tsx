@@ -2,6 +2,7 @@ import { GridContainer } from "../components/grid";
 import Image from "next/image";
 import Planning from "../../../public/planning.jpg";
 import Gif from "../../../public/gif-transparent-example.gif";
+import Gif2 from "../../../public/gif.gif";
 
 export function SectionHero() {
   return (
@@ -24,7 +25,7 @@ export function SectionHero() {
           </div>
         </div>
         <div className="w-full max-w-text-hero flex flex-col gap-y-4 hidden sm:flex">
-          <Image className="rounded-md" src={Gif} alt="Icon search" />
+          <Image className="rounded-md" src={Gif2} alt="Icon search" />
         </div>
       </GridContainer>
     </section>
