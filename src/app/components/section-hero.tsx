@@ -33,9 +33,14 @@ export function SectionHero() {
             e propósito
           </h3>
           <div className="">
-            <button className="py-4 px-5 bg-white rounded-full text-gray-800 font-bold">
-              <span>Entrar em contato</span>
-            </button>
+            <a
+              href="https://api.whatsapp.com/send?phone=555191773532"
+              target="_blank"
+            >
+              <button className="py-4 px-5 bg-white rounded-full text-gray-800 font-bold">
+                <span>Entrar em contato  </span>
+              </button>
+            </a>
           </div>
         </div>
         <div className="w-full max-w-text-hero flex flex-col gap-y-4 hidden sm:flex p-2">
