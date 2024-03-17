@@ -33,9 +33,15 @@ export function SectionHero() {
             src={Frase}
             width={700}
             height={350}
-            alt="Icon search"
+            alt="Lema"
           />
-          
+
+          <h3 className="text-xl font-light text-white mb-4">
+            Trabalhamos para conceber uma identidade única para sua marca, que
+            não só ressoe com seu público-alvo, mas também reflita seus valores
+            e propósito
+          </h3>
+
           <div>
             <a
               href="https://api.whatsapp.com/send?phone=555191773532"
@@ -129,11 +135,6 @@ export function SectionHero() {
               </svg>
             </a>
           </div>
-          {/* <h3 className="text-xl font-light text-white mb-4">
-            Trabalhamos para conceber uma identidade única para sua marca, que
-            não só ressoe com seu público-alvo, mas também reflita seus valores
-            e propósito
-          </h3> */}
         </div>
         {/* <div className="w-full max-w-text-hero flex flex-col gap-y-4 hidden sm:flex p-2">
           <ModalVideo
