@@ -31,8 +31,8 @@ export function SectionHero() {
           <Image
             className="rounded-md"
             src={Frase}
-            width={700}
-            height={350}
+            width={500}
+            height={250}
             alt="Lema"
           />
 
