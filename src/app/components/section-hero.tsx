@@ -35,13 +35,24 @@ export function SectionHero() {
             height={350}
             alt="Icon search"
           />
-          <div className="flex mt-4 space-x-6 sm:mt-0">
+          
+          <div>
+            <a
+              href="https://api.whatsapp.com/send?phone=555191773532"
+              target="_blank"
+            >
+              <button className="py-4 px-5 bg-white rounded-lg text-gray-800 font-bold">
+                <span>Entrar em contato </span>
+              </button>
+            </a>
+          </div>
+          <div className="flex mt-4 space-x-6 mt-5">
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white p-2 bg-white"
+              className="text-gray-500 hover:text-gray-900 dark:hover:text-white p-2 bg-white rounded-lg"
             >
               <svg
-                className="w-5 h-5"
+                className="w-5 h-5 text-black"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -55,10 +66,10 @@ export function SectionHero() {
             </a>
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white p-2 bg-white"
+              className="text-gray-500 hover:text-gray-900 dark:hover:text-white p-2 bg-white rounded-lg"
             >
               <svg
-                className="w-5 h-5"
+                className="w-5 h-5 text-black"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -72,10 +83,10 @@ export function SectionHero() {
             </a>
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white p-2 bg-white"
+              className="text-gray-500 hover:text-gray-900 dark:hover:text-white p-2 bg-white rounded-lg"
             >
               <svg
-                className="w-5 h-5"
+                className="w-5 h-5 text-black"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -85,10 +96,10 @@ export function SectionHero() {
             </a>
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white p-2 bg-white"
+              className="text-gray-500 hover:text-gray-900 dark:hover:text-white p-2 bg-white rounded-lg"
             >
               <svg
-                className="w-5 h-5"
+                className="w-5 h-5 text-black"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -102,10 +113,10 @@ export function SectionHero() {
             </a>
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white p-2 bg-white"
+              className="text-gray-500 hover:text-gray-900 dark:hover:text-white p-2 bg-white rounded-lg"
             >
               <svg
-                className="w-5 h-5"
+                className="w-5 h-5 text-black"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -123,16 +134,6 @@ export function SectionHero() {
             não só ressoe com seu público-alvo, mas também reflita seus valores
             e propósito
           </h3> */}
-          <div className="mt-5">
-            <a
-              href="https://api.whatsapp.com/send?phone=555191773532"
-              target="_blank"
-            >
-              <button className="py-4 px-5 bg-white rounded-full text-gray-800 font-bold">
-                <span>Entrar em contato </span>
-              </button>
-            </a>
-          </div>
         </div>
         {/* <div className="w-full max-w-text-hero flex flex-col gap-y-4 hidden sm:flex p-2">
           <ModalVideo
