@@ -27,7 +27,7 @@ export function SectionHero() {
   return (
     <section className="w-full h-[40rem] bg-green-primary border-t border-t-color-border flex pb-5">
       <GridContainer className="grid items-center gap-2 items-center">
-        <div className="w-full max-w-text-hero flex flex-col gap-y-4 p-2 items-left">
+        <div className="w-full max-w-text-hero flex flex-col gap-y-4 items-left">
           <Image
             className="rounded-md"
             src={Frase}
