@@ -13,10 +13,11 @@ export function SectionExplainSolution() {
             </h1>
             <h3 className="text-xl font-medium text-gray-800 text-opacity-70">
               Acreditamos que as nossas soluções não estão apenas relacionadas a
-              serviços de marketing digital ou offline. O nosso principal
+              serviços de marketing digital ou offline. <br/>O nosso principal
               propósito é criar conexões reais com nossos clientes para que
               possamos crescer juntos e com isso, através de estratégia e
-              planejamento único, pensar em conteúdos e soluções singulares.
+              planejamento único, pensar em conteúdos e soluções singulares. 
+              <b> Um mundo de possibilidades, para tornar sua empresa única</b>.
             </h3>
           </div>
           <div className="w-full max-w-text-hero flex flex-col gap-y-4">
