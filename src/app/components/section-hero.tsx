@@ -53,7 +53,7 @@ export function SectionHero() {
         </div>
         <div className="flex flex-col items-end justify-center space-y-6 absolute top-0 right-0 mr-5 mt-5 h-full">
           <a
-            href="#"
+            href="https://www.instagram.com/kasabranding/"
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white p-2 bg-white rounded-full"
           >
             <svg
@@ -74,7 +74,7 @@ export function SectionHero() {
             </svg>
           </a>
           <a
-            href="#"
+            href="https://www.instagram.com/kasabranding/"
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white p-2 bg-white rounded-full"
           >
             <svg

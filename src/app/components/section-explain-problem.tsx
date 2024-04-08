@@ -7,7 +7,7 @@ import Planning from "../../../public/planning.jpg";
 export function SectionExplainProblem() {
   return (
     <>
-      <section className="w-full min-h-[35rem] bg-color-neuter flex sm:h-auto">
+      <section className="w-full min-h-[30rem] bg-color-neuter flex sm:h-auto">
         <GridContainer className="grid grid-cols-1 sm:grid-cols-2 items-center gap-2">
           <div className="w-full max-w-text-hero flex flex-col gap-y-4 pr-2">
             <ModalVideo
