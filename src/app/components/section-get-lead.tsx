@@ -28,7 +28,7 @@ export function SectionGetLead() {
                 <a href="https://api.whatsapp.com/send?phone=555191773532">
                   <button
                     type="button"
-                    className="rounded-md bg-color-background px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-black"
+                    className="rounded-md bg-color-background px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-black py-4 px-5"
                   >
                     Solucionar
                   </button>
