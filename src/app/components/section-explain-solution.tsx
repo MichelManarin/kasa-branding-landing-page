@@ -17,7 +17,6 @@ export function SectionExplainSolution() {
               propósito é criar conexões reais com nossos clientes para que
               possamos crescer juntos e com isso, através de estratégia e
               planejamento único, pensar em conteúdos e soluções singulares. 
-              <b> Um mundo de possibilidades, para tornar sua empresa única</b>.
             </h3>
           </div>
           <div className="w-full max-w-text-hero flex flex-col gap-y-4">
