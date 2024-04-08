@@ -8,7 +8,7 @@ export function SectionListServices() {
           <div className="">
             <div className="">
               <h2 className="text-5xl text-gray-800 font-semibold mt-12 text-center sm:text-left">
-                Conheça nossos serviços
+                Soluções
               </h2>
             </div>
             <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
