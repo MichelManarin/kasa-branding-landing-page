@@ -1,6 +1,6 @@
 import { GridContainer } from "./grid";
 import Image from "next/image";
-import NoBranding from "../../../public/no-branding.png";
+import Metodologia from "../../../public/metodologia.png";
 
 export function SectionExplainSolution() {
   return (
@@ -9,14 +9,18 @@ export function SectionExplainSolution() {
         <GridContainer className="grid grid-cols-1 sm:grid-cols-2 items-center gap-2">
           <div className="w-full max-w-text-hero flex flex-col gap-y-4">
             <h1 className="text-black text-gray-800 text-5xl font-semibold mb-2">
-              [Sabrina - Explicar um pouco sobre a metodologia]
+              Metodologia
             </h1>
             <h3 className="text-xl font-medium text-gray-800 text-opacity-70">
-              [fazer um resumo]
+              Acreditamos que as nossas soluções não estão apenas relacionadas a
+              serviços de marketing digital ou offline. O nosso principal
+              propósito é criar conexões reais com nossos clientes para que
+              possamos crescer juntos e com isso, através de estratégia e
+              planejamento único, pensar em conteúdos e soluções singulares.
             </h3>
           </div>
           <div className="w-full max-w-text-hero flex flex-col gap-y-4">
-            <Image className="rounded-md" src={NoBranding} alt="Icon search" />
+            <Image className="rounded-md" src={Metodologia} alt="Icon search" />
           </div>
         </GridContainer>
       </section>

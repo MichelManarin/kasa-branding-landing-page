@@ -9,7 +9,7 @@ import IconSearch from "../../../public/icon-search.svg";
 const arrayMenu = [
   "Início",
   "A Kasa",
-  "Método",
+  "Metodologia",
   "Serviços",
   "Office",
 ];

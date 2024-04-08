@@ -1,6 +1,4 @@
 import { GridContainer } from "../components/grid";
-import ModalVideo from "../components/modal-video";
-import Planning from "../../../public/planning.jpg";
 import Frase from "../../../public/frase.svg";
 import Image from "next/image";
 

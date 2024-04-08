@@ -29,7 +29,7 @@ export function SectionGetLead() {
                   type="button"
                   className="rounded-md bg-color-background px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-black"
                 >
-                  Registrar
+                  Solucionar 
                 </button>
               </form>
             </div>
