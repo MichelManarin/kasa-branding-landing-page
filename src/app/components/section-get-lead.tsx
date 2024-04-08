@@ -8,7 +8,7 @@ export function SectionGetLead() {
           <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 ">
             <div className="space-y-3">
               <h2 className="text-5xl font-bold tracking-tighter md:text-4xl/tight text-gray-800 text-black text-5xl font-semibold">
-                Descubra como nossos serviços podem ajudar o seu negócio!
+                Descubra como nossas soluções podem ajudar no seu negócio!
               </h2>
               <p className="text-xl font-medium text-gray-800 text-opacity-70">
                 Ofereça uma experiência verdadeiramente exclusiva a seus
