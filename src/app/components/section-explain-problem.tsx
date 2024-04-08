@@ -25,10 +25,10 @@ export function SectionExplainProblem() {
               A KASA
             </h1>
             <h3 className="text-xl font-medium text-gray-800 text-opacity-70">
-              Estamos à frente de um time que busca pelo sucesso e crescimento da sua empresa.
-              Oferecemos serviços de Marketing com a criação de propósitos, valores e personalidade.
+              Estamos à frente de um time que busca pelo <b>sucesso</b> e crescimento da sua empresa.
+              Oferecemos serviços de Marketing com a criação de <b>propósitos, valores e personalidade</b>.
               Alinhamos de forma estratégica tudo que a sua marca quer deixar para o mundo e como ela vai contribuir com seus clientes.
-              Através de estratégias autênticas e com autoridade no assunto, te ajudamos a obter os melhores resultados. Um mundo de possibilidades, para tornar sua empresa única.
+              Através de estratégias autênticas e com autoridade no assunto, te ajudamos a obter os melhores resultados. <b>Um mundo de possibilidades, para tornar sua empresa única</b>.
             </h3>
           </div>
         </GridContainer>

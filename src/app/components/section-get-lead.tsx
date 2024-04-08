@@ -16,21 +16,23 @@ export function SectionGetLead() {
               </p>
             </div>
             <div className="mx-auto w-full max-w-sm space-y-2">
-              <form className="flex space-x-2">
-                <input
+              <form className="text-center">
+                {/* <input
                   type="email"
                   name="email"
                   id="email"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   placeholder="   Informe seu melhor e-mail"
                   aria-describedby="email-description"
-                />
-                <button
-                  type="button"
-                  className="rounded-md bg-color-background px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-black"
-                >
-                  Solucionar 
-                </button>
+                /> */}
+                <a href="https://api.whatsapp.com/send?phone=555191773532">
+                  <button
+                    type="button"
+                    className="rounded-md bg-color-background px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-black"
+                  >
+                    Solucionar
+                  </button>
+                </a>
               </form>
             </div>
           </div>
